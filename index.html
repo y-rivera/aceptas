@@ -57,8 +57,7 @@
 
     // Botón "Sí"
     document.getElementById("yes-button").addEventListener("click", () => {
-      const message = "Hola, sí!
-        Me encantaría ser tu novia";
+      const message = "Hola, sí! Me encantaría ser su novia";
       const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
       window.location.href = url; // Redirigir a WhatsApp
     });
